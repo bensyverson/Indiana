@@ -112,6 +112,7 @@ IndianaConverter.prototype.pyToJs = function(string) {
 				.replace(/(\b)False(\b)/g, "$1false$2")
 				.replace(/(\b)True(\b)/g, "$1true$2")
 				.replace(/(\b)math(\b)/g, "$1Math$2")
+				.replace(/(\b)has_key\((\w+)\)/g, "$1hasOwnProperty($2)")
 				.replace(/([^=])==\s*undefined/g, '$1=== undefined')
 				.replace(/!=\s*undefined/g, '!== undefined')
 				.replace(/(\w)\.append\s*\(/g, '$1.push(')
