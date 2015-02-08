@@ -1,0 +1,22 @@
+{
+  "name": "indiana",
+  "version": "1.0.0",
+  "description": "The first step in a Python to Javascript conversion project",
+  "main": "indiana.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "python",
+    "converter",
+    "py"
+  ],
+  "author": "Ben Syverson <ben@bensyverson.com> (http://bensyverson.com)",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.2",
+    "sprintf-js": "^1.0.2"
+  }
+}
